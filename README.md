@@ -21,6 +21,11 @@ by : byt3n33dl3 (Sulaiman)
 # Sharp Karambit 
 A CLI software for web `Domain` and `Account` Takeover.
 
+<h1 align="center">
+  <img src="/karambit.png" alt="Karambit" width="300px">
+  <br>
+</h1>
+
 An Open source Penetration Testing tool that automates the process of detecting and exploiting `HTTP` and `HTTPs` flaws and taking over of the Insecure Domain services. It comes with a powerful detection engine, many niche features for the ultimate Penetration Tester, and a broad range of switches including Domain fingerprinting, over data fetching from any services, accessing the underlying file systems.
 
  - Simple and modular code base making it easy to contribute.
