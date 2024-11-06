@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/projectdiscovery/goflags"
-	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/gologger/levels"
-	"github.com/projectdiscovery/httpx/runner"
+	"github.com/byt3n33dl3/goflags"
+	"github.com/byt3n33dl3/gologger"
+	"github.com/byt3n33dl3/gologger/levels"
+	"github.com/byt3n33dl3/httpX/runner"
 )
 
 func main() {
@@ -73,13 +73,13 @@ func main() {
 		log.Fatal(err)
 	}
 
-	httpxRunner, err := runner.New(&options)
+	httpXRunner, err := runner.New(&options)
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer httpxRunner.Close()
+	defer httpXRunner.Close()
 
-	httpxRunner.RunEnumeration()
+	httpXRunner.RunEnumeration()
 
 	// check the threads
 	req, err := http.Get(fmt.Sprintf("http://%s/api/concurrency", apiEndpoint))

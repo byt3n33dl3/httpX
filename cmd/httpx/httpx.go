@@ -9,11 +9,11 @@ import (
 	"runtime/pprof"
 
 	"github.com/logrusorgru/aurora"
-	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/httpx/internal/pdcp"
-	"github.com/projectdiscovery/httpx/runner"
-	pdcpauth "github.com/projectdiscovery/utils/auth/pdcp"
-	_ "github.com/projectdiscovery/utils/pprof"
+	"github.com/byt3n33dl3/gologger"
+	"github.com/byt3n33dl3/httpX/internal/pdcp"
+	"github.com/byt3n33dl3/httpX/runner"
+	pdcpauth "github.com/byt3n33dl3/utils/auth/pdcp"
+	_ "github.com/byt3n33dl3/utils/pprof"
 )
 
 func main() {
@@ -62,7 +62,7 @@ func main() {
 	// setup optional asset upload
 	_ = setupOptionalAssetUpload(options)
 
-	httpxRunner, err := runner.New(options)
+	httpXRunner, err := runner.New(options)
 	if err != nil {
 		gologger.Fatal().Msgf("Could not create runner: %s\n", err)
 	}
@@ -73,10 +73,10 @@ func main() {
 	go func() {
 		for range c {
 			gologger.Info().Msgf("CTRL+C pressed: Exiting\n")
-			httpxRunner.Close()
+			httpXRunner.Close()
 			if options.ShouldSaveResume() {
 				gologger.Info().Msgf("Creating resume file: %s\n", runner.DefaultResumeFile)
-				err := httpxRunner.SaveResumeConfig()
+				err := httpXRunner.SaveResumeConfig()
 				if err != nil {
 					gologger.Error().Msgf("Couldn't create resume file: %s\n", err)
 				}
@@ -85,8 +85,8 @@ func main() {
 		}
 	}()
 
-	httpxRunner.RunEnumeration()
-	httpxRunner.Close()
+	httpXRunner.RunEnumeration()
+	httpXRunner.Close()
 }
 
 // setupOptionalAssetUpload is used to setup optional asset upload
@@ -107,14 +107,14 @@ func setupOptionalAssetUpload(opts *runner.Options) *pdcp.UploadWriter {
 	if opts.Screenshot {
 		gologger.Fatal().Msgf("Screenshot option is not supported for dashboard upload yet")
 	}
-	gologger.Info().Msgf("To view results in UI dashboard, visit https://cloud.projectdiscovery.io/assets upon completion.")
+	gologger.Info().Msgf("To view results in UI dashboard, visit https://cloud.byt3n33dl3.io/assets upon completion.")
 	h := &pdcpauth.PDCPCredHandler{}
 	creds, err := h.GetCreds()
 	if err != nil {
 		if err != pdcpauth.ErrNoCreds && !pdcp.HideAutoSaveMsg {
 			gologger.Verbose().Msgf("Could not get credentials for cloud upload: %s\n", err)
 		}
-		pdcpauth.CheckNValidateCredentials("httpx")
+		pdcpauth.CheckNValidateCredentials("httpX")
 		return nil
 	}
 	writer, err := pdcp.NewUploadWriterCallback(context.Background(), creds)
