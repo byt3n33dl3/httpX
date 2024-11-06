@@ -8,14 +8,14 @@
 /_/ /_/\__/\__/ .___/_/|_|v2  
              /_/
 
-  <- Offensive Cyber ->
-by : byt3n33dl3 (Sulaiman)
+by : byt3n33dl3 - Sulaiman
 
 ```
 
 <p align="center">
 <a href="https://opensource.org/licenses/AGPL"><img src="https://img.shields.io/badge/license-AGPL-_red.svg"></a>
 <a href="https://github.com/byt3n33dl3/httpx/releases"><img src="https://img.shields.io/github/release/byt3n33dl3/httpx"></a>
+<a href="https://github.com/byt3n33dl3/"><img src="https://img.shields.io/badge/offensive cyber-_red.svg"></a>
 </p>
 
 # Sharp Karambit 
@@ -31,7 +31,7 @@ An Open source Penetration Testing tool that automates the process of detecting 
  - Account Takeover
  - Handles edge cases doing retries, backoffs etc for handling WAFs.
 
-# Features
+# Interface
 
 <h1 align="center">
   <img src="/show.png" alt="httpx" width="700px">
@@ -91,4 +91,10 @@ An Open source Penetration Testing tool that automates the process of detecting 
 
 GNU AFFERO GENERAL `PUBLIC` LICENSE 3.0
 
-The GNU Affero General Public License is a free, copyleft license for software and other kinds of works, specifically designed to ensure cooperation with the community in the case of network server software. The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, our General Public Licenses are intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users.
+```js
+The GNU Affero General Public License is a free, copyleft license for software and other kinds of works, 
+specifically designed to ensure cooperation with the community in the case of network server software. 
+The licenses for most software and other practical works are designed to take away your freedom to 
+share and change the works. By contrast, our General Public Licenses are intended to guarantee your 
+freedom to share and change all versions of a program--to make sure it remains free software for all its users.
+```
