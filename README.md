@@ -15,16 +15,11 @@ by : byt3n33dl3 (Sulaiman)
 
 <p align="center">
 <a href="https://opensource.org/licenses/AGPL"><img src="https://img.shields.io/badge/license-AGPL-_red.svg"></a>
-<a href="https://github.com/projectdiscovery/httpx/releases"><img src="https://img.shields.io/github/release/projectdiscovery/httpx"></a>
+<a href="https://github.com/byt3n33dl3/httpx/releases"><img src="https://img.shields.io/github/release/byt3n33dl3/httpx"></a>
 </p>
 
 # Sharp Karambit 
 A CLI software for web `Domain` and `Account` Takeover.
-
-<h1 align="center">
-  <img src="/karambit.webp" alt="Karambit" width="300px">
-  <br>
-</h1>
 
 An Open source Penetration Testing tool that automates the process of detecting and exploiting `HTTP` and `HTTPs` flaws and taking over of the Insecure Domain services. It comes with a powerful detection engine, many niche features for the ultimate Penetration Tester, and a broad range of switches including Domain fingerprinting, over data fetching from any services, accessing the underlying file systems.
 
