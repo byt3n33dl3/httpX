@@ -1,4 +1,3 @@
-# Base
 FROM golang:1.21.4-alpine AS builder
 
 RUN apk add --no-cache git build-base gcc musl-dev
@@ -12,4 +11,4 @@ RUN apk upgrade --no-cache \
     && apk add --no-cache bind-tools ca-certificates chromium
 COPY --from=builder /app/httpx /usr/local/bin/
 
-ENTRYPOINT ["httpx"]
+ENTRYPOINT ["httpX"]

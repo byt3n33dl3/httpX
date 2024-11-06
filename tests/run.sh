@@ -1,12 +1,12 @@
 #!/bin/bash
 
-echo "::group::Build httpx"
-rm integration-test httpx 2>/dev/null
-cd ../cmd/httpx
+echo "::group::Build httpX"
+rm integration-test httpX 2>/dev/null
+cd ../cmd/httpX
 go build
-mv httpx ../../integration_tests/httpx
+mv httpX ../../integration_tests/httpX
 echo "::endgroup::"
-echo "::group::Build httpx integration-test"
+echo "::group::Build httpX integration-test"
 cd ../integration-test
 go build
 mv integration-test ../../integration_tests/integration-test 
@@ -15,7 +15,7 @@ echo "::endgroup::"
 ./integration-test
 if [ $? -eq 0 ]
 then
-  exit 0
+  eXit 0
 else
-  exit 1
+  eXit 1
 fi

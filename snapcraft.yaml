@@ -1,10 +1,10 @@
-name: httpx
-summary: httpx is a fast and multi-purpose HTTP toolkit
+name: httpX
+summary: httpX is a fast and multi-purpose HTTP toolkit
 description: |
-  httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
+  httpX is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
 version: 'v1.2.1'
-icon: static/httpx-logo.png
-license: MIT
+icon: static/httpX-logo.png
+license: AGPL 3.0
 base: core18
 grade: stable
 confinement: strict
@@ -13,22 +13,22 @@ architectures:
     run-on: [s390x, ppc64el, arm64, armhf and amd64]
 
 apps:
-  httpx:
-    command: bin/httpx
+  httpX:
+    command: bin/httpX
     plugs:
       - home
       - network
       - removable-media
-      - dot-httpx
+      - dot-httpX
 
 #plugs:
-#  dot-httpx:
+#  dot-httpX:
 #    interface: personal-files
 #    write:
-#      - $HOME/.config/httpx
+#      - $HOME/.config/httpX
 
 parts:
-  httpx:
-    source: https://github.com/projectdiscovery/httpx.git
-    plugin: go
+  httpX:
+    source: https://github.com/byt3n33dl3/httpX.git
+    plugin: c
     go-channel: latest/stable

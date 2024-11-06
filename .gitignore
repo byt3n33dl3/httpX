@@ -1,15 +1,15 @@
 .idea/
 .vscode/
 dist
-cmd/httpx/httpx
-integration_tests/httpx
+cmd/httpX/httpX
+integration_tests/httpX
 integration_tests/integration-test
-cmd/functional-test/httpx_dev
+cmd/functional-test/httpX_dev
 cmd/functional-test/functional-test
-cmd/functional-test/httpx
+cmd/functional-test/httpX
 cmd/functional-test/*.cfg
 
 .devcontainer
-/httpx
+/httpX
 /dist
 /resume.cfg
