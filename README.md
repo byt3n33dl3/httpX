@@ -22,7 +22,7 @@ by : byt3n33dl3 (Sulaiman)
 A CLI software for web `Domain` and `Account` Takeover.
 
 <h1 align="center">
-  <img src="/karambit.png" alt="Karambit" width="300px">
+  <img src="/karambit.webp" alt="Karambit" width="300px">
   <br>
 </h1>
 
