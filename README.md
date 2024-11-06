@@ -34,7 +34,7 @@ An Open source Penetration Testing tool that automates the process of detecting 
 # Features
 
 <h1 align="center">
-  <img src="https://github.com/user-attachments/assets/fd87d149-3045-4831-a545-0aa3835ac5f3" alt="httpx" width="700px">
+  <img src="/show.png" alt="httpx" width="700px">
   <br>
 </h1>
 
@@ -89,6 +89,6 @@ An Open source Penetration Testing tool that automates the process of detecting 
 
 # `AGPL`
 
-GNU AFFERO GENERAL PUBLIC LICENSE 3.0
+GNU AFFERO GENERAL `PUBLIC` LICENSE 3.0
 
 The GNU Affero General Public License is a free, copyleft license for software and other kinds of works, specifically designed to ensure cooperation with the community in the case of network server software. The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, our General Public Licenses are intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users.
