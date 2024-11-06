@@ -1,6 +1,6 @@
 # httpX / `Attacks`
 
-```go
+```hs
     __    __  __       _  __
    / /_  / /_/ /_____ | |/ /
   / __ \/ __/ __/ __ \|   / 
@@ -8,7 +8,8 @@
 /_/ /_/\__/\__/ .___/_/|_|  
              /_/
 
-Offensive Cyber Execution
+  <- Offensive Cyber ->
+by : byt3n33dl3 (Sulaiman)
 
 ```
 
