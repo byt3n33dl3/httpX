@@ -8,8 +8,6 @@
 /_/ /_/\__/\__/ .___/_/|_|v2  
              /_/
 
-by : byt3n33dl3 - Sulaiman
-
 ```
 
 <p align="center">
@@ -19,7 +17,7 @@ by : byt3n33dl3 - Sulaiman
 </p>
 
 # Sharp Karambit 
-A CLI software for web `Domain` and `Account` Takeover.
+A CLI software for Web `Domain` Crucifixion and `Account` Takeover.
 
 An Open source Penetration Testing tool that automates the process of detecting and exploiting `HTTP` and `HTTPs` flaws and taking over of the Insecure Domain services. It comes with a powerful detection engine, many niche features for the ultimate Penetration Tester, and a broad range of switches including Domain fingerprinting, over data fetching from any services, accessing the underlying file systems.
 
@@ -60,8 +58,8 @@ An Open source Penetration Testing tool that automates the process of detecting 
 
 # Notes
 
-- As default, `httpx` probe with **HTTPS** scheme and fall-back to **HTTP** only if **HTTPS** is not reachable.
-- The `-no-fallback` flag can be used to probe and display both **HTTP** and **HTTPS** result.
+- As default, `httpx` probe with **HTTPs** scheme and fall-back to **HTTP** only if **HTTPs** is not reachable.
+- The `-no-fallback` flag can be used to probe and display both **HTTP** and **HTTPs** result.
 - Custom scheme for ports can be defined, for example `-ports` http:443,http:80,https:8443
 - Custom resolver supports multiple protocol (**doh|tcp|udp**) in form of `protocol:`resolver:port (e.g. `udp:`127.0.0.1:53)
 - The following flags should be used for specific use cases instead of running them as default with other probes:
