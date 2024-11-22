@@ -1,4 +1,4 @@
-# httpX / `Attacks`
+# httpX / `Assessor`
 
 ```hs
     __    __  __       _  __
@@ -85,11 +85,11 @@ An Open source Penetration Testing tool that automates the process of detecting 
 
 >- Projectdiscovery
 
-# `AGPL`
+## `AGPL` / [LICENSE](https://github.com/byt3n33dl3/httpX/main/LICENSE.md)
 
 GNU AFFERO GENERAL `PUBLIC` LICENSE 3.0
 
-```js
+```
 The GNU Affero General Public License is a free, copyleft license for software and other kinds of works, 
 specifically designed to ensure cooperation with the community in the case of network server software. 
 The licenses for most software and other practical works are designed to take away your freedom to 
