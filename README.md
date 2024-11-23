@@ -1,5 +1,5 @@
 <h2 align="center">
-  <img src="/httpx.png" alt="httpx" width="200px">
+  <img src="/doc/red-logo.png" alt="httpx" width="200px">
 </h2>
 
 Fast and multi purpose HTTP toolkit that allows running multiple probes using the retryable HTTP library. It is designed to maintain result `reliability` with an increased number of threads.
@@ -49,7 +49,7 @@ An Open source Penetration Testing tool that automates the process of detecting 
 # Interface
 
 <h1 align="center">
-  <img src="/show.png" alt="httpx" width="700px">
+  <img src="/doc/show.png" alt="httpx" width="700px">
   <br>
 </h1>
 
