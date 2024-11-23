@@ -1,3 +1,13 @@
+<div align="center">
+<h1>httpX</h1>
+<p></div>
+
+<a href="https://github.com/byt3n33dl3/PasswordCracker"><p align="center">
+<img width="250" height="250" src="/httpx.png">
+</p></a>
+
+Fast and multi purpose HTTP toolkit that allows running multiple probes using the retryable HTTP library. It is designed to maintain result `reliability` with an increased number of threads.
+
 # httpX / `Assessor`
 
 ```hs
