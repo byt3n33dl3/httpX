@@ -1,14 +1,10 @@
-<div align="center">
-<h1>httpX</h1>
-<p></div>
-
-<a href="https://github.com/byt3n33dl3/PasswordCracker"><p align="center">
-<img width="250" height="250" src="/httpx.png">
-</p></a>
+<h2 align="center">
+  <img src="/httpx.png" alt="httpx" width="200px">
+</h2>
 
 Fast and multi purpose HTTP toolkit that allows running multiple probes using the retryable HTTP library. It is designed to maintain result `reliability` with an increased number of threads.
 
-# httpX / `Assessor`
+# [httpX](https://github.com/byt3n33dl3/httpX/) / `Assessor`
 
 ```hs
     __    __  __       _  __
@@ -20,10 +16,15 @@ Fast and multi purpose HTTP toolkit that allows running multiple probes using th
 
 ```
 
+<div align="center">
+<h1>httpX</h1>
+httpX can be used as a library by creating an instance of the Option struct and populating it with the same options that would be specified via CLI. Once validated, the struct should be passed to a runner instance to be closed at the end of the program and the RunEnumeration method should be called.
+<p></div>
+
 <p align="center">
 <a href="https://opensource.org/licenses/AGPL"><img src="https://img.shields.io/badge/license-AGPL-_red.svg"></a>
 <a href="https://github.com/byt3n33dl3/httpx/releases"><img src="https://img.shields.io/github/release/byt3n33dl3/httpx"></a>
-<a href="https://github.com/byt3n33dl3/"><img src="https://img.shields.io/badge/offensive cyber-_red.svg"></a>
+<a href="https://github.com/byt3n33dl3/"><img src="https://img.shields.io/badge/Offensive httpX-_red.svg"></a>
 </p>
 
 # Sharp Karambit 
@@ -38,6 +39,12 @@ An Open source Penetration Testing tool that automates the process of detecting 
  - Supports hosts, URLs and CIDR as input.
  - Account Takeover
  - Handles edge cases doing retries, backoffs etc for handling WAFs.
+
+| :vampire:  **Disclaimer**  |
+|---------------------------------|
+| **This project is in active development**. Expect breaking changes with releases. Review the changelog before updating. |
+| This project was primarily built to be used as a standalone CLI tool. **Running it as a service may pose security risks.** It's recommended to use with caution and additional security measures. |
+
 
 # Interface
 
@@ -91,9 +98,11 @@ An Open source Penetration Testing tool that automates the process of detecting 
 <a href="https://github.com/projectdiscovery"><img src="https://avatars.githubusercontent.com/u/50994705?s=200&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/ehsandeep"><img src="https://avatars.githubusercontent.com/u/8293321?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/Mzack9999"><img src="https://avatars.githubusercontent.com/u/13421144?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/OceanExec"><img src="https://avatars.githubusercontent.com/u/171657497?s=200&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 </p>
 
->- Projectdiscovery
+>- Projectdiscovery [projectdiscovery.io](https://docs.projectdiscovery.io/tools/httpx)
 
 ## `AGPL` / [LICENSE](https://github.com/byt3n33dl3/httpX/main/LICENSE.md)
 
