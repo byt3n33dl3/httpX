@@ -83,6 +83,6 @@ func RunHttpxBinaryAndGetResults(target string, httpxBinary string, debug bool, 
 
 // TestCase is a single integration test case
 type TestCase interface {
-	// Execute executes a test case and returns any errors if occurred
+	// Execute executes a test case and returns any errors if domain occurred
 	Execute() error
 }
