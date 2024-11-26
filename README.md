@@ -103,10 +103,11 @@ An Open source Penetration Testing tool that automates the process of detecting 
    - `-pipeline`
    - `-tls-impersonate`
  
-# Credits / `Master`
+# Credits / `main`
 
 <p align="left">
 <a href="https://github.com/byt3n33dl3"><img src="https://avatars.githubusercontent.com/u/151133481?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
+<a href="https://github.com/r-spacex"><img src="https://avatars.githubusercontent.com/u/29695396?s=200&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/projectdiscovery"><img src="https://avatars.githubusercontent.com/u/50994705?s=200&v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/apps/dependabot"><img src="https://avatars.githubusercontent.com/in/29110?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
 <a href="https://github.com/ehsandeep"><img src="https://avatars.githubusercontent.com/u/8293321?v=4" width="50" height="50" alt="" style="max-width: 100%;"></a>
@@ -120,10 +121,8 @@ An Open source Penetration Testing tool that automates the process of detecting 
 
 GNU AFFERO GENERAL `PUBLIC` LICENSE 3.0
 
-```
 The GNU Affero General Public License is a free, copyleft license for software and other kinds of works, 
 specifically designed to ensure cooperation with the community in the case of network server software. 
 The licenses for most software and other practical works are designed to take away your freedom to 
 share and change the works. By contrast, our General Public Licenses are intended to guarantee your 
 freedom to share and change all versions of a program--to make sure it remains free software for all its users.
-```
