@@ -1,8 +1,20 @@
+<h1 align="center">
+  <a href=https://github.com/byt3n33dl3/httpX><img src="/doc/yari.webp" alt="httpX" width="280px">
+  <br>
+</h1>
+
+<p align="center">
+  <a href="#sharp-karambit">Karambit</a> •
+  <a href="#probes">Capability</a> •
+  <a href="#notes">Usage</a> •
+  <a href="#credits">Master</a>
+</p>
+
 <h2 align="center">
   <img src="/doc/red-logo.png" alt="httpx" width="200px">
 </h2>
 
-Fast and multi purpose HTTP toolkit that allows running multiple probes using the retryable HTTP library. It is designed to maintain result `reliability` with an increased number of threads.
+Fast and multi purpose HTTP toolkit that allows running multiple probes using the retryable HTTP library. It is designed to maintain result `reliability` with an increased number of threads. httpX has been an essential asset in the arsenal of `Security` professionals and researchers.
 
 # [httpX](https://github.com/byt3n33dl3/httpX/) / `Assessor`
 
