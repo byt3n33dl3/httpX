@@ -50,6 +50,7 @@ An Open source Penetration Testing tool that automates the process of detecting 
  - Smart auto fallback from https to http as default. 
  - Supports hosts, URLs and CIDR as input.
  - Account Takeover
+   - Domain Escalation
  - Handles edge cases doing retries, backoffs etc for handling WAFs.
 
 | :vampire:  **Disclaimer**  |
